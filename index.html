@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet Pandit - Programmer , Quick Learner , ML Enthusiast</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b317d865cf.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <p class="Name-logo">Meet Pandit</p>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#Courses">Courses</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+
+                <h1>Hi, I'm <span>Meet</span> <br>
+                    and i am a passionate </h1>
+                <span id="element"></span>
+            </div>
+            <div class="image">
+                <img src="images/Backgroung-rm.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------------------------------about------------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/My_Image-removebg-preview.png" alt="User">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>My name is Meet Pandit , Passionate about competitive programming and actively participate in
+                        coding competitions. I Completed various online courses to enhance my skills and knowledge in
+                        computer engineering.<br><br>
+                        I am eager to stay updated with industry advancements and further expand my
+                        knowledge and skillset. <br>
+                        <br>I'm Fond of Reading  Books and Keep informed My Self about Geopolitics Events.I Spent My Free Time in Learning New Things and analyzing My Routine tasks to achieve better Work efficiency.
+
+                    </p>
+
+                    <div class="tab-titles">
+                        
+                        <p class="tab-links active-link" onclick="opentab('experience')">Internship</p>
+                        <p class="tab-links " onclick="opentab('education')">Education</p>
+                    </div>
+
+
+                    
+
+                    <div class="tab-contents active-tab" id="experience">
+                        <ul>
+                            <li><span>Tech Elecon PVT Ltd.</span> <br>Web Development</li>
+                            <li><span>TatvaSoft</span><br>React JS Training </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br>BE(Computer Engineering) - Birla Vishvakarma Mahavidyalaya </li>
+                            <li><span>2020</span><br>12<sup>th</sup> - PP Savani Chaitanya Vidya Sankul</li>
+                            <li><span>2018</span><br>10<sup>th</sup> - NK HighSchool</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- -----------------------Skills------------------------ -->
+
+
+  <div id="skills">
+      <div class="container">
+        <h1 class="sub-title">Skills</h1>
+        <div class="SkillsList">
+            <ul>
+                <li><b>Languages</b>: C/C++, Java, Python, J2EE</li>
+                <li><b>Frontend</b> : HTML, CSS, Bootstrap , ReactJS </li>
+                <li><b>Database</b> : MySQL, MongoDB , Postgres</li>
+                <li><b>Data Analysis</b> : NumPy, Pandas, Matplotlib </li>
+                <li><b>Data Science </b>: Standard Ml Algorithms (Regression, Classification, Clustering) </li>
+                <li><b>Developer Tools</b> : IntelliJ, VS Code, Git</li>
+            </ul>
+        </div>
+
+      </div>
+  </div>
+
+
+
+
+
+    <!-- ----------------------------Courses----------- -->
+    <div id="Courses">
+        <div class="container">
+            <h1 class="sub-title">Courses</h1>
+            <div class="Courses-list">
+
+                <div>
+                    <i class="fa-brands fa-linux"></i>
+                    <h2 class="Course-title">Ethical Hacking </h2>
+                    <p class="Course-desc">NPTEL - IITKGP <br> Jan-April 2023</p>
+                    <a href="https://www.dropbox.com/scl/fi/l0kfjitj53pkrun4vrwjw/Ethical-Hacking-1.jpg?rlkey=gviws7fk6siv9m0ieyoauws9z&dl=0"><i class="fas fa-external-link-alt sm"></i></a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-git-alt"></i>
+                    <h2 class="Course-title">Introduction to Git and GitHub</h2>
+                    <p class="Course-desc">Coursera - Google <br> Jan 2023</p>
+                    <a href="https://www.coursera.org/account/accomplishments/certificate/KXUVGL9Y9L37" target="_blank"><i class="fas fa-external-link-alt sm"></i></a>
+                    <!-- <a href="#">Learn More</a> -->
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2 class="Course-title">Supervised ML: Regression and Classification </h2>
+                    <p class="Course-desc">Coursera - DeepLearning.AI <br> Jun 2023</p>
+                    <a href="https://www.coursera.org/account/accomplishments/certificate/J46EKQEWYMAJ" target="_blank"><i class="fas fa-external-link-alt sm"></i></a>
+                    <!-- <a href="#">Learn More</a> -->
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------Projects--------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/sun.png" alt="">
+                    <div class="layer">
+                        <h3>Weather App</h3>
+                        <p>Welcome to My Weather and air Pollution information site! This Site provide accurate and up-to-date data on weather conditions and air quality to help you stay informed and make informed decisions about your day.</p>
+                        <a href="https://meet-pandit-bvm24.github.io/React_Weather_App/" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/to-do-list-apps.png" alt="">
+                    <div class="layer">
+                        <h3>Cloud NoteBook</h3>
+                        <p>Welcome to our Todo site, your ultimate productivity companion! Our site is designed to help you organize and manage your tasks effectively, so you can stay on top of your to-do list and accomplish your goals.</p>
+                        <a href="#">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/photo-1499951360447-b19be8fe80f5.avif" alt="">
+                    <div class="layer">
+                        <h3>Portfolio Site</h3>
+                        <p> I invite you to explore my work, learn more about my skills and experiences, and discover how I can contribute to your projects and endeavors. I look forward to connecting with you and potentially collaborating on exciting ventures.</p>
+                        <a href="#">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- --------------------Contact------------------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <a href="mailto:someone@example.com"><i class="fas fa-paper-plane"></i></a>
+                        meetpandit88@gmail.com</p>
+                    <p> <i class="fas fa-phone-square-alt"></i> 9773094058</p>
+
+                    <div class="social-icons">
+                        <a href="https://twitter.com/I_am_meet24" target="_blank"><i class="fab fa-twitter-square"
+                                target="_blank"></i></a>
+                        <a href="https://www.linkedin.com/in/meet-pandit-28641524b/" target="_blank"><i
+                                class="fab fa-linkedin" target="_blank"></i></a>
+                        <a href="https://wa.me/+919773094058" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://github.com/Meet-Pandit-BVM24/Projects" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
+
+
+                    </div>
+                    <a href="images/" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" placeholder="Your Message" cols="30" rows="6"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"> </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright &copy;Meet. Made with ❤️ by Meet Pandit</p>
+        </div>
+    </div>
+
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var Sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            Sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            Sidemenu.style.right = "-200px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzSZfkLEms6mBbImSKagOcWzFWUNhMO7GvrlRWlKBioiBGB99gBcBDmrl0tlAvSmJDH/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+
+
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message Sent Successfully"
+                    setTimeout(() => {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset();
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i> Competitive Coder </i>', '<i> Web Developer </i> ', '<i> ML Enthusiast </i> ', '<i>Global Affairs Enthusiast</i>'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
